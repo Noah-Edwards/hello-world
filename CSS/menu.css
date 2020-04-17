@@ -1,0 +1,20 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(202, 203, 171);
+}
+
+#page{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+a, button{
+	margin-bottom: 10%;
+	width : 100%;
+	margin-right: auto;
+	margin-left: auto;
+}

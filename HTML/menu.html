@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Casse-Briques</title>
+
+		<!-- Lien vers le document css -->
+		<link href="../CSS/menu.css" rel="stylesheet">
+		<!-- Insertion de Bootstrap -->
+		<link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="page">
+			<div class="jumbotron">
+			  <h1 class="display-4">CASSE-BRIQUES</h1>
+			</div>
+			<a href="1joueur.html" class="btn btn-primary btn-lg active" role="button">1 JOUEUR</a></br>
+			<a href="2joueurs.html" class="btn btn-primary btn-lg active" role="button">2 JOUEURS</a></br>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">RÈGLES</button>
+		</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		  <div class="modal-dialog modal-dialog-centered" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalCenterTitle">RÈGLES CASSE-BRIQUES</h5>
+		      </div>
+		      <div class="modal-body">
+		        <p>C'est un casse-briques mélangé au jeux Pong qui est l'un des premiers jeux vidéos de l'histoire. Ce jeu a été réalisé en tant que devoir pour mon cours d'informatique à l'école.</p>
+		        <p>Ici, je vais vous expliquer les règles du jeu :</p>
+		        <ul>
+					<li>Quand la balle rebondit sur le paddle, au plus elle est est au centre, au plus l'angle avec lequel elle repart sera aigu.</li></br>
+					<li>Quand une balle rebondit sur un paddle, elle devient de la couleur du paddle.</li></br>
+					<li>Quand une balle casse un bloc, 1 point revient au joueur de la couleur de cette balle.</li></br>
+					<li>Quand une balle <font color="red">rouge</font> sort du coté <font color="red">rouge</font>, le joueur <font color="red">rouge</font> perd 5 points.</li></br>
+					<li>Quand une balle <font color="red">rouge</font> sort du coté <font color="blue">bleu</font>, le joueur <font color="red">rouge</font> reçoit 25 points.</li></br>
+					<li>Pour une balle <font color="blue">bleue</font>, c'est exactement pareil que les deux tirets ci-dessus.</li></br>
+					<li>La partie se termine lorsque toute les briques sont détruites ou bien lorsqu'il n'y a plus de balles.</li></br>
+					<li>Dans le mode <a href="2joueurs.html">2 Joueurs</a>, le joueur rouge doit utiliser la touche "z" pour monter et "s" pour descendre. Le joueur Bleu doit utiliser les flèches du haut et du bas.</li></br>
+					<li>Dans le mode <a href="1joueur.html">1 Joueur</a>, le joueur joue par défaut en tant que <font color="blue">bleu</font> et l'ordinateur en tant que <font color="red">rouge</font>.</li>
+					<font color="red">
+		        </ul>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		
+		<!-- Insertion de Bootstrap -->
+		<script src="../Bootstrap/js/jquery.3.3.1.min.js"></script>
+		<script src="../Bootstrap/js/popper.min.js"></script>
+		<script src="../Bootstrap/js/bootstrap.min.js"></script>
+	</body>
+</html>
